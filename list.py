@@ -18,3 +18,15 @@ print(tea_varities)
 
 for tea in tea_varities:
     print(tea, end="-")
+
+
+# print()print(len(tea_varities)) 
+print(len(tea_varities))
+
+print(tea_varities.count("White"))
+
+print(tea_varities.index("Lemon"))
+tea_varities.append("Chamomile")
+print(tea_varities)
+tea_varities.insert(2, "Earl Grey")
+print(tea_varities)
