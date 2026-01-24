@@ -30,3 +30,14 @@ tea_varities.append("Chamomile")
 print(tea_varities)
 tea_varities.insert(2, "Earl Grey")
 print(tea_varities)
+
+print(tea_varities)
+
+
+if "Black" in tea_varities:
+    print("Yes we have black tea")
+
+
+
+squared_num = [x**2 for x in range(10)]
+print(squared_num)
