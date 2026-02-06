@@ -11,3 +11,7 @@ def timing_decorator(func):
         print(f"Execution time: {end_time - start_time} seconds")
         return result
     return wrapper
+
+def long_running_function():
+    time.sleep(2)  # Simulating a long-running task
+    return "Task completed" 
