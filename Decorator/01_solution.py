@@ -15,3 +15,16 @@ def timing_decorator(func):
 def long_running_function():
     time.sleep(2)  # Simulating a long-running task
     return "Task completed" 
+
+
+
+# Applying the decorator to the function
+timed_long_running_function = timing_decorator(long_running_function)
+# Calling the decorated function
+print(timed_long_running_function())
+
+
+
+# Output:
+# Execution time: 2.002345561981201 seconds
+# Task completed
