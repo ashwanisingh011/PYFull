@@ -25,6 +25,23 @@ print(timed_long_running_function())
 
 
 
+
+
+
 # Output:
 # Execution time: 2.002345561981201 seconds
 # Task completed
+
+
+
+
+additional_function = timing_decorator(lambda x: x**2)
+print(additional_function(5))  # Output: Execution time: 0.000001
+# Output: Execution time: 0.000001 seconds
+# Output: 25
+
+
+new_function = timing_decorator(lambda x, y: x + y)
+print(new_function(3, 4))  # Output: Execution time: 0.000001
+# Output: Execution time: 0.000001 seconds
+# Output: 7
