@@ -29,3 +29,8 @@ print(my_tesla.fuel_type())
 
 safari = Car("Tata", "Safari")
 print(safari.fuel_type())
+
+print(my_tesla.fullname())
+print(my_tesla.get_brand())
+print(safari.fullname())
+print(safari.get_brand()) 
